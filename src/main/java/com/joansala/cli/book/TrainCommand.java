@@ -151,7 +151,7 @@ public class TrainCommand implements Callable<Integer> {
 
         trainer.train(nodeSize, rootGame, (moves) -> {
             try{
-                Evaluator evaluator = evaluators.take​();
+                Evaluator evaluator = evaluators.take();
                 final int score = evaluator.computeScore(moves);
                 final int centis = rootGame.toCentiPawns(score);
                 final long count = store.count();
