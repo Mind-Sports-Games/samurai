@@ -36,7 +36,7 @@ public abstract class BaseGame implements Game {
     public static final int CONTEMPT_SCORE = 0;
 
     /** Default capacity of this object */
-    public static final int DEFAULT_CAPACITY = 254;
+    public static final int DEFAULT_CAPACITY = 602;
 
     /** Number of moves this game can store */
     protected int capacity;
